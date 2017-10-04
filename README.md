@@ -1,10 +1,10 @@
-This project demonstrates how to separate Android Application code 
-and Instrumentation Tests for this application as independent Android project.
+"as_separate_module" branch demonstrates how to separate Android Application code 
+and Instrumentation Tests for this application as independent test module placed outside the application folder.
 
 This is possible if you are using:
-  1. Android Studio 3.0 Beta 6 and higher
-  2. Android Gradle Plugin: 'com.android.tools.build:gradle:3.0.0-beta6' and higher
-It is impossible if you will use lower versions.
+  1. Android Studio 2.3.3
+  2. Android Gradle Plugin: 'com.android.tools.build:gradle:2.2.3'. This functionality is broken in version of plugin from 2.3.0.
+  3. Gradle Wrapper: 3.3-all
 
 How to run tests:
   1. Create new configuration for the test module:
