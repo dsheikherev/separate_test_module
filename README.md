@@ -1,9 +1,10 @@
-This project demonstrates how to separate Android Application code 
+"as_separate_project" branch demonstrates how to separate Android Application code 
 and Instrumentation Tests for this application as independent Android project.
 
 This is possible if you are using:
   1. Android Studio 3.0 Beta 6 and higher
   2. Android Gradle Plugin: 'com.android.tools.build:gradle:3.0.0-beta6' and higher
+  3. Gradle Wrapper: 4.1-all
 It is impossible if you will use lower versions.
 
 How to run tests:
